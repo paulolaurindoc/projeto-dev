@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+:root {
+    --azul-escuro: #171219;
+    --azul-claro: #2274A5;
+    --platina: #E7E5DF;
+}
+
+body {
+    background-color: var(--azul-escuro);
+}
+
+header {
+    background-color: var(--azul-claro);
+}
