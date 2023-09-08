@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+:root {
+    --dark-blue: #171219;
+    --light-blue: #2274A5;
+    --platinum: #E7E5DF;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 200px;
+    background-color: var(--light-blue);
+    text-align: center;
+    padding: ;
+}
+header > h1 {
+    background-color: red;
+    
+}
