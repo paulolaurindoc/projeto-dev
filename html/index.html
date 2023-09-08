@@ -1,56 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Dev</title>
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
     
 </head>
 <body>
     <header>
         <h1>Inteligência Artificial</h1>
+        <p>Tudo o que você precisa saber sobre IA.</p>
     </header>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">TITULO</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Usuário
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Perfil</a></li>
-                  <li><a class="dropdown-item" href="#">Editar perfil</a></li>
-                  <li><a class="dropdown-item" href="#">Configurações</a></li>
-                </ul>
-              </li>
-            </ul>
+    <nav>
+      <div class="dropdown">
+          <button class="dropbtn">Menu</button>
+          <div class="dropdown-content">
+              <a href="#">Página 1</a>
+              <a href="#">Página 2</a>
+              <a href="#">Página 3</a>
           </div>
-        </div>
-      </nav>
+      </div>
+  </nav>
+  <div class="content">
+      <!-- Conteúdo da sua página aqui -->
+  </div>
+  
+  <script src="script.js">
+
+    document.addEventListener("click", function(event) {
+    const dropdowns = document.getElementsByClassName("dropdown-content");
+    for (const dropdown of dropdowns) {
+        if (!dropdown.contains(event.target)) {
+            dropdown.style.display = "none";
+        }
+    }
+});
+
+  </script>
+  
       
 
 
     <main>
         <article>
             <h2>O que são?</h2>
+            <p>A Inteligência Artificial, que você vai ver por aí sendo citada apenas como IA (ou AI, de artificial intelligence), é um avanço tecnológico que permite que sistemas simulem uma inteligência similar à humana — indo além da programação de ordens específicas para tomar decisões de forma autônoma, baseadas em padrões de enormes bancos de dados.</p>
         </article>
-        <footer>
+        <aside id="a1">
+          <h2>Qual é a sua importância?</h2>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda veritatis sed cum incidunt! Quisquam culpa ex quaerat quae esse doloribus molestiae ea consequuntur temporibus accusantium? Distinctio soluta earum repudiandae ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nihil similique possimus eum mollitia ut dolor ducimus temporibus rerum dicta iusto ipsam repudiandae molestias modi itaque, reiciendis debitis ipsum minus?</p>
             
-        </footer>
-    </main>
+        </aside>
 
    
+    </main>
+
+
+      <footer>
+        <div class="copyright">
+            © Copyright 2023 
+           <span>Paulo e Jean</span>. Todos os direitos reservados.
+        </div>
+    </footer>
+
+
 </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
