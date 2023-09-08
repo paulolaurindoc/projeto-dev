@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 :root {
-    --azul-escuro: #171219;
-    --azul-claro: #2274A5;
-    --platina: #E7E5DF;
+    --dark-blue: #171219;
+    --light-blue: #2274A5;
+    --platinum: #E7E5DF;
 }
 
 body {
-    background-color: var(--platina);
+    background-color: var(--platinum);
 }
