@@ -4,18 +4,33 @@
     --dark-blue: #171219;
     --light-blue: #2274A5;
     --platinum: #E7E5DF;
+
+    --min-wdh-padrao: 280px;
+    --max-wdh-padrao: 800px;
+
+    --min-hgh-padrao: 800px;
+    --max-hgh-padrao: 550px;
+
+    --max-wdh-img-padrao: 100%;
+    --min-wdh-img-padrao: 50%;
 }
 *{
     margin: 0px;
     padding: 0px;
 }
-
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    
+}
 html, body {
     min-height: 100vh;
 }
 
 header {
-    padding: 30vh;  
+    padding: 20vh;  
+    min-height: 800px;
+    max-height: 550px;
     background-color: #171219;
     color: white;
     background-image: url('../imagens/img-header.jpg');
@@ -23,25 +38,42 @@ header {
     background-position: right ;
     background-size: cover;
 }
+header h1 {
+    font-size: 500%;
+    font-weight: bolder;
+    font-variant: small-caps;
+    line-height: 0.8em;
+}
+
+header p {
+    min-width: 280px;
+    max-width: 400px;
+    font-size: 5vh;
+    margin: auto;
+}
+
 header h1, p {
     text-align: center;
-    margin: 0px auto;
+    margin: 10% 20% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section#img01 p {
-    margin: auto;
-    min-width: 280px;
-    max-width: 800px;
+    margin: 0vh auto;
+    min-width: var(--min-wdh-padrao);
+    max-width: var(--max-wdh-padrao);
     background-color: rgba(0, 0, 0, 0.468);
     color: white;
-    padding: 5vh;
+    padding: 3vh;
     border-radius: 0px 0px 5px 5px;
     border-collapse: collapse;
 }
 section#img01 h2 {
     margin: auto;
-    min-width: 280px;
-    max-width: 800px;
+    min-width: var(--min-wdh-padrao);
+    max-width: var(--max-wdh-padrao);
     background-color: rgba(0, 0, 0, 0.468);
     color: white;
     border-radius: 5px 5px 0px 0px;
@@ -53,8 +85,10 @@ section#img01 h2 {
 
 section#img01 {
     margin: -40px auto;
-    max-width: 100%;
-    min-width: 50%;
+    max-width: var(--max-wdh-img-padrao);
+    min-width: var(--min-wdh-img-padrao);
+    min-height: var(--min-hgh-padrao);
+    max-height: var(--min-hgh-padrao);
     padding: 30vh;
     /*background*/
     background-color: yellow;
@@ -66,40 +100,82 @@ section#img01 {
 }
 
 section#img02 p {
-    margin: auto;
-    min-width: 280px;
-    max-width: 800px;
+    margin: 0vh auto;
+    min-width: var(--min-wdh-padrao);
+    max-width: var(--max-wdh-padrao);
     background-color: rgba(0, 0, 0, 0.468);
     color: white;
-    padding: 5vh;
+    padding: 3vh;
     border-radius: 0px 0px 5px 5px;
     border-collapse: collapse;
 }
 
 section#img02 h2 {
     margin: auto;
-    min-width: 280px;
-    max-width: 800px;
+    min-width: var(--min-wdh-padrao);
+    max-width: var(--max-wdh-padrao);
     background-color: rgba(0, 0, 0, 0.468);
     color: white;
     border-radius: 5px 5px 0px 0px;
     padding: 1vh;
     display: flex;
-    text-align: center;
     justify-content: center;
-    align-items: center;
 }
 
 section#img02 {
     margin: auto;
-    max-width: 100%;
-    min-width: 50%;
+    max-width: var(--max-wdh-img-padrao);
+    min-width: var(--min-wdh-img-padrao);
+    min-height: var(--min-hgh-padrao);
+    max-height: var(--max-hgh-padrao);
     padding: 20vh;
     /*background*/
     background-color: yellow;
     background-image: url('../imagens/img-aside02.jpg');
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
+}
+
+section#img03 p {
+    margin: auto;
+    min-width: var(--min-wdh-padrao);
+    max-width: var(--max-wdh-padrao);
+    background-color: rgba(0, 0, 0, 0.468);
+    color: white;
+    padding: 3vh;
+    border-radius: 0px 0px 5px 5px;
+    border-collapse: collapse;
+}
+
+section#img03 h2 {
+    margin: auto;
+    min-width: var(--min-wdh-padrao);
+    max-width: var(--max-wdh-padrao);
+    background-color: rgba(0, 0, 0, 0.468);
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+}
+
+section#img03 h2,p {
+    margin-top: 10%;
+}
+
+section#img03 {
+    margin: auto;
+    max-width: var(--max-wdh-img-padrao);
+    min-width: var(--min-wdh-img-padrao);
+    min-height: var(--min-hgh-padrao);
+    max-height: var(--max-hgh-padrao);
+    padding: 20vh;
+    /*background*/
+    background-color: yellow;
+    background-image: url('../imagens/img-robocerebro.jpg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     background-position: center;
 }
 /*nav drop*/
