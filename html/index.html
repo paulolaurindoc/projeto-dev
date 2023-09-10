@@ -30,32 +30,17 @@
       <!-- Conteúdo da sua página aqui -->
   </div>
   
-  <script src="script.js">
-
-    document.addEventListener("click", function(event) {
-    const dropdowns = document.getElementsByClassName("dropdown-content");
-    for (const dropdown of dropdowns) {
-        if (!dropdown.contains(event.target)) {
-            dropdown.style.display = "none";
-        }
-    }
-});
-
-  </script>
-  
-      
-
 
     <main>
-        <article>
+        <section id="img01">
             <h2>O que são?</h2>
             <p>A Inteligência Artificial, que você vai ver por aí sendo citada apenas como IA (ou AI, de artificial intelligence), é um avanço tecnológico que permite que sistemas simulem uma inteligência similar à humana — indo além da programação de ordens específicas para tomar decisões de forma autônoma, baseadas em padrões de enormes bancos de dados.</p>
-        </article>
-        <aside id="a1">
-          <h2>Qual é a sua importância?</h2>
-           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda veritatis sed cum incidunt! Quisquam culpa ex quaerat quae esse doloribus molestiae ea consequuntur temporibus accusantium? Distinctio soluta earum repudiandae ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nihil similique possimus eum mollitia ut dolor ducimus temporibus rerum dicta iusto ipsam repudiandae molestias modi itaque, reiciendis debitis ipsum minus?</p>
-            
-        </aside>
+        </section>
+        
+        <section id="img02">
+            <h2>Qual é a sua importância?</h2>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda veritatis sed cum incidunt! Quisquam culpa ex quaerat quae esse doloribus molestiae ea consequuntur temporibus accusantium? Distinctio soluta earum repudiandae ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nihil similique possimus eum mollitia ut dolor ducimus temporibus rerum dicta iusto ipsam repudiandae molestias modi itaque, reiciendis debitis ipsum minus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde necessitatibus eum eaque hic dolorum voluptate velit officiis quas praesentium ipsum! Nostrum magnam nam tempora reiciendis quidem repudiandae incidunt ut! Doloribus.</p>
+        </section>
 
    
     </main>
@@ -66,8 +51,21 @@
             © Copyright 2023 
            <span>Paulo e Jean</span>. Todos os direitos reservados.
         </div>
+
     </footer>
 
+    <script src="script.js">
+
+        document.addEventListener("click", function(event) {
+        const dropdowns = document.getElementsByClassName("dropdown-content");
+        for (const dropdown of dropdowns) {
+            if (!dropdown.contains(event.target)) {
+                dropdown.style.display = "none";
+            }
+        }
+    });
+    
+      </script>
 
 </body>
 </html>
