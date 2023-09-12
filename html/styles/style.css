@@ -177,81 +177,44 @@ section#img03 {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-}
-/*nav drop*/
-/* Estilo para o botão do menu suspenso */
-.dropbtn {
-    background-color: #3498db;
-    color: white;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
 
-/* Estilo para o contêiner do menu suspenso */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Estilo para o conteúdo do menu suspenso (oculto por padrão) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Estilo para os links do menu suspenso */
-.dropdown-content a {
-    padding: 10px 16px;
-    text-decoration: none;
-    display: block;
-    color: #333;
-}
-
-/* Mudança de cor quando o mouse passa por cima do link */
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-/* Exibir o menu suspenso quando o botão é hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Estilo para o conteúdo principal */
-.content {
-    padding: 20px;
 }
 
 
-  
-
-
-/*footer*/
-
-.copyright {
-    font-size: 14px;
-    
-   
-color: #333; /* Cor do texto */
-    text-align: center;
-    padding: 10px;
-    background-color: #f2f2f2; /* Cor de fundo */
-    border-top: 1px solid #ccc; /* Linha superior */
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #007BFF; /* Cor de fundo da navbar */
 }
 
-/* Estilização dos nomes dos donos */
-.copyright span {
+.navbar-brand {
+    color: #fff; /* Cor do texto do título */
     font-weight: bold;
-    color: #007bff; /* Cor dos nomes (azul) */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Cor do ícone do botão de colapso */
+}
+
+/* Estilos para os links na navbar */
+.navbar-nav .nav-link {
+    color: #fff; /* Cor do texto dos links */
+    font-weight: bold;
+    margin-right: 15px; /* Espaçamento entre os links */
+}
+
+/* Estilos para os links ativos na navbar */
+.navbar-nav .nav-item.active .nav-link {
+    background-color: #fff; /* Cor de fundo do link ativo */
+    color: #007BFF; /* Cor do texto do link ativo */
+    border-radius: 5px; /* Borda arredondada para o link ativo */
+}
+
+/* Estilo para os links na navbar ao passar o mouse */
+.navbar-nav .nav-link:hover {
+    color: #007BFF; /* Cor do texto ao passar o mouse sobre os links */
 }
 
 
 
-  
-  
+footer 
+{ background-color: hwb(263 9% 62%); color: white; padding: 20px; text-align: center; }
