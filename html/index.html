@@ -5,103 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Dev</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="styles/style.css">    
 </head>
+
 <body>
-
- 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <!-- Logo e Título -->
-            <a class="navbar-brand" href="#">Projeto Dev</a>
-            
-            <!-- Botão de colapso para telas menores -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            
-            </button>
-
-            <!-- Itens da Navbar -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Página Inicial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#img01">O que são?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#img02">Importância</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#img03">Exemplo de Título</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <header>
+        <h1>Exemplo de Título</h1>
+        <p>Exemplo de parágrafo.</p>
+    </header>
+    <nav>
+        <p>Menu</p>
+        <ul type="none">
+            <li><a href="#">Opção1</a></li>
+            <li><a href="#">Opção2</a></li>
+            <li><a href="#">Opção3</a></li>
+        </ul>
     </nav>
 
-<!--
-    <header>
-        <h1>Inteligência Artificial</h1>
-        <p>Tudo o que você precisa saber sobre IA.</p>
-    </header>
--->
     <main>
-        <!--
-        <section id="teste">
-            <h2>Teste</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, facere. Commodi ex consequuntur quas! Tempora vitae cumque, debitis ut necessitatibus eaque, esse natus, quos ipsum velit ipsam ad quam eligendi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. In assumenda cumque quidem necessitatibus magni libero minima odit, ullam ipsa saepe quasi cum doloremque, quia accusamus iusto excepturi id incidunt architecto?</p>
-        </section>
-        -->
-        <section id="img01">
-            <h2>O que são?</h2>
-            <p>A Inteligência Artificial, que você vai ver por aí sendo citada apenas como IA (ou AI, de artificial intelligence), é um avanço tecnológico que permite que sistemas simulem uma inteligência similar à humana — indo além da programação de ordens específicas para tomar decisões de forma autônoma, baseadas em padrões de enormes bancos de dados.</p>
-        </section>
-        
-        <section id="img02">
-            <h2>Qual é a sua importância?</h2>
-           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda veritatis sed cum incidunt! Quisquam culpa ex quaerat quae esse doloribus molestiae ea consequuntur temporibus accusantium? Distinctio soluta earum repudiandae ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nihil similique possimus eum mollitia ut dolor ducimus temporibus rerum dicta iusto ipsam repudiandae molestias modi itaque, reiciendis debitis ipsum minus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde necessitatibus eum eaque hic dolorum voluptate velit officiis quas praesentium ipsum! Nostrum magnam nam tempora reiciendis quidem repudiandae incidunt ut! Doloribus.</p>
-        </section>
+        <aside id="img01">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae, molestias accusantium, in numquam dolorem dicta sint illo blanditiis a voluptate! Iusto magnam pariatur fuga, doloremque iste necessitatibus vitae molestias?</p>
+        </aside>
 
-        <section id="img03">
-            <h2>Exemplo de Título</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi, ullam maiores et quisquam minus! Saepe quia dolores facere voluptatem magni, reprehenderit nobis. Illo neque aperiam eaque, facere culpa harum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea reprehenderit consequuntur voluptatum tempore nulla! Autem est laborum sunt quaerat. Corrupti nemo dolorum facere doloribus tempore repellendus eligendi aut quod commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aliquam quo porro perspiciatis corporis labore, quia vero illo architecto ad ipsa impedit assumenda, modi iste totam sapiente quos. Tempore, reprehenderit.</p>
-        </section>
-   
+        <aside id="img02">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat officia aspernatur, iusto velit sunt pariatur dicta numquam, nobis asperiores cumque fugit ut quis vel nisi tempore nesciunt aliquam assumenda tempora?</p>
+        </aside>
+
+        <aside id="img03">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis deserunt nulla dolor sit! Aperiam voluptas culpa temporibus accusantium, quae fugiat dicta hic tenetur saepe ad corrupti reiciendis alias adipisci aut.</p>
+        </aside>
     </main>
-
-        
-      <footer>
-        <div class="copyright">
-            © Copyright 2023 
-           <span><a href="https://github.com/paulolaurindoc" target="_blank">Paulo</a> e <a href="https://github.com/j3anp07" target="_blank">Jean</a></span>. Todos os direitos reservados.
-        </div>
-    
-        
-   
-
-
-
-    <script src="script.js">
-
-        document.addEventListener("click", function(event) {
-        const dropdowns = document.getElementsByClassName("dropdown-content");
-        for (const dropdown of dropdowns) {
-            if (!dropdown.contains(event.target)) {
-                dropdown.style.display = "none";
-            }
-        }
-    });
-    
-      </script>
-
 </body>
-</html>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
