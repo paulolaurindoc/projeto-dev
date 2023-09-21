@@ -75,15 +75,27 @@ aside#img01 {
     display: flex;
     align-items: center;
 
-    /*arrumar com media */
-    background-image: url(../imagens/img-aside01.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-
 }
 
+@media (min-width: 370px) {
+    aside#img01 {
+        background-image: url(../imagens/img-aside01-pq.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+ }   
+@media (min-width: 1024px) { 
+    aside#img01 {
+    background-image: url(../imagens/img-aside01.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    }
+
+
 aside#img01 p {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.340);
+    color: var(--platinum);
     margin: auto;
     text-align: center;
     max-width: 900px; /*arrumar com media */
@@ -91,26 +103,71 @@ aside#img01 p {
     padding: 10px;
 }
 
-
 aside#img02 {
     margin: auto;
     max-height: 00px;
     min-height: 500px;
     min-width: 300px;
     max-width: 1600px;
-    background-color: red;
     display: flex;
     align-items: center;
-
-    /*colocar img e arrumar com media */
-    background-image: ;
-    background-size: cover;
-    background-attachment: fixed;
-
 }
 
+@media (min-width: 370px) {
+    aside#img02 {
+        background-image: url(../imagens/img-aside02-pq.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+ }   
+@media (min-width: 1024px) { 
+    aside#img02 {
+    background-image: url(../imagens/img-aside02.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    }
+
+
 aside#img02 p {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.340);
+    color: var(--platinum);
+    margin: auto;
+    text-align: center;
+    max-width: 900px; /*arrumar com media */
+    min-width: 200px;
+    padding: 10px;
+}
+
+aside#img03 {
+    margin: auto;
+    max-height: 00px;
+    min-height: 500px;
+    min-width: 300px;
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 370px) {
+    aside#img03 {
+        background-image: url( );
+        background-attachment: fixed;
+        background-size: cover;
+    }
+ }   
+@media (min-width: 1024px) { 
+    aside#img03 {
+    background-image: url( );
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    }
+
+
+aside#img03 p {
+    background-color: rgba(0, 0, 0, 0.340);
+    color: var(--platinum);
     margin: auto;
     text-align: center;
     max-width: 900px; /*arrumar com media */
