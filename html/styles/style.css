@@ -19,22 +19,11 @@
     padding: 0px;
 }
 
-header {
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-    min-height: 220px;
-}
-
-header h1 {
-    margin-top: 80px;
-}
-
 nav {
     margin: auto;
-    border: 1px solid black; /*tirar*/
     height: 50px;
     padding: 5px;
+    background-color: white;
     position: sticky;
     top: -1px;
     background-color: white;
@@ -62,6 +51,54 @@ nav > ul > li {
     display: inline-block;
 }
 
+
+header {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    min-height: 400px;
+
+    background-image: url(../imagens/img-header.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    background-color: rgba(0, 0, 0, 0.340);
+    margin: auto;
+    font-size: 3.2em;
+    color: var(--platinum);
+}
+
+header > p {
+    background-color: rgba(0, 0, 0, 0.340);
+    color: var(--platinum);
+    margin: auto;
+    font-size: 1.5em;
+}
+
+@media (min-width: 370px) {
+    header > p {
+    width: 300px;
+    margin-top: ;
+    }
+    header > h1 {
+    width: 300px;
+    margin-top: 125px;
+    }
+}
+
+@media (min-width: 1024px) {
+    header > p {
+        width: 600px;
+    }
+    header > h1 {
+        width: 600px;
+        margin-top: 160px;
+    }
+}
+
 main {
     margin: auto;
 }
@@ -79,9 +116,10 @@ aside#img01 {
 
 @media (min-width: 370px) {
     aside#img01 {
-        background-image: url(../imagens/img-aside01-pq.jpg);
+        background-image: url(../imagens/img-aside01.jpg);
         background-attachment: fixed;
         background-size: cover;
+        background-position: center left;
     }
  }   
 @media (min-width: 1024px) { 
@@ -115,14 +153,14 @@ aside#img02 {
 
 @media (min-width: 370px) {
     aside#img02 {
-        background-image: url(../imagens/img-aside02-pq.jpg);
+        background-image: url(../imagens/img-aside02.jpg); /*trocar img*/
         background-attachment: fixed;
         background-size: cover;
     }
  }   
 @media (min-width: 1024px) { 
     aside#img02 {
-    background-image: url(../imagens/img-aside02.jpg);
+    background-image: url(../imagens/img-aside02.jpg); /*trocar img*/
     background-attachment: fixed;
     background-size: cover;
     }
