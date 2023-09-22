@@ -81,7 +81,6 @@ header > p {
 @media (min-width: 370px) {
     header > p {
     width: 300px;
-    margin-top: ;
     }
     header > h1 {
     width: 300px;
@@ -153,14 +152,14 @@ aside#img02 {
 
 @media (min-width: 370px) {
     aside#img02 {
-        background-image: url(../imagens/img-aside02.jpg); /*trocar img*/
+        background-image: url();
         background-attachment: fixed;
         background-size: cover;
     }
  }   
 @media (min-width: 1024px) { 
     aside#img02 {
-    background-image: url(../imagens/img-aside02.jpg); /*trocar img*/
+    background-image: url();
     background-attachment: fixed;
     background-size: cover;
     }
@@ -189,14 +188,14 @@ aside#img03 {
 
 @media (min-width: 370px) {
     aside#img03 {
-        background-image: url( );
+        background-image: url();
         background-attachment: fixed;
         background-size: cover;
     }
  }   
 @media (min-width: 1024px) { 
     aside#img03 {
-    background-image: url( );
+    background-image: url();
     background-attachment: fixed;
     background-size: cover;
     }
