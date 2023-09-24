@@ -20,16 +20,18 @@
 }
 
 nav {
+    background-color: #181661;
     margin: auto;
     height: 50px;
     padding: 5px;
-    background-color: white;
+    
     position: sticky;
     top: -1px;
-    background-color: white;
+
 }
 nav p, ul {
     display: inline-block;
+    color: var(--platinum);
 }
 nav p {
     font-size: 1.6em;
@@ -45,6 +47,7 @@ nav > ul > li > a {
     color: #171219;
     padding: 10px;
     font-size: 1.2em;
+    color: var(--platinum);
 }
 
 nav > ul > li {
@@ -56,7 +59,7 @@ header {
     margin: auto;
     text-align: center;
     padding: 10px;
-    min-height: 400px;
+    min-height: 500px;
 
     background-image: url(../imagens/img-header.jpg);
     background-attachment: fixed;
